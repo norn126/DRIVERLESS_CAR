@@ -1,0 +1,8 @@
+package com.lucas.fancycar.driverless;
+
+public interface Car {
+
+	   void move(char command) throws Exception;
+
+	   void reportPosition();
+	}
